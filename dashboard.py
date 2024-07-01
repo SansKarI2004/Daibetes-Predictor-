@@ -10,7 +10,7 @@ from sklearn.metrics import confusion_matrix, classification_report
 from streamlit_option_menu import option_menu
 
 # Load data
-data = pd.read_csv(r"C:\Users\91876\Documents\dsa\Even sem project\daibetes detector\archive\diabetes.csv")
+data = pd.read_csv(r".\diabetes.csv")
 
 # Streamlit app
 st.title('Diabetes Data Analysis')
